@@ -1,0 +1,170 @@
+html{
+    color: rgb(125, 214, 250);
+}
+
+*{
+    font-family: sans-serif;
+    margin-top:1px; padding: 1px;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+    
+    
+}
+
+*::selection{
+    background-color: rgb(57, 241, 180);
+    
+}
+
+html{
+    font-size: 25.5%;
+    overflow-x: hidden;
+}
+
+
+body{
+    background:rgb(34, 33, 33);
+    overflow-x: hidden;
+    padding-left: 35rem;
+}
+
+section{
+    min-height: 100vh;
+    padding:8rem;
+}
+
+.btn{
+    padding:.7rem 7rem;
+    background:rgb(162, 197, 130);
+    color:#fff;
+    cursor: pointer;
+    margin-top: 8rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+.btn i{
+    padding:0 .15rem;
+    font-size: 3rem;
+}
+.heading{
+    text-align: center;
+    margin:0 6rem;
+    font-size: 4rem;
+    padding:1rem;
+    border-bottom: .1rem solid #fff4;
+    color:rgb(204, 189, 189);
+}
+
+header{
+    position: fixed ;
+    top:0; left:0; bottom: 25;
+    z-index: 1000;
+    height:100%;
+    width:35rem;
+    background:#2b2a2a;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user img{
+    height:17rem;
+    width:17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border:.7rem solid ;
+}
+
+header .user .post,.name{
+    font-size: 2rem;
+    color:rgb(164, 182, 7);
+    
+}
+
+header .navbar{
+    width:70%;
+
+}
+
+header .navbar ul{
+    list-style: none;
+    padding:1rem 3rem;
+}
+
+header .navbar ul li a{
+    display: block;
+    padding:1rem;
+    margin:1.5rem 0;
+    background:#333;
+    color:#fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+    text-transform: capitalize;
+}
+#menu{
+    position: fixed;
+    top:2rem; right:2rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding:1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
+.home{
+    display: fixed;
+    justify-content: center;
+    flex-flow: column;
+    padding:0 10rem;
+}
+
+.home h3{
+    font-size: 7rem;
+    color:rgb(35, 90, 122);
+}
+
+.home h1{
+    font-size:5rem;
+    color:#fff;
+}
+
+.home p{
+    font-size:2rem;
+    color:rgb(138, 161, 52);
+    padding: 1rem 0;
+    block-size: 25%;
+    font-family: "Comic Sans MS","Comic Sans", cursive;
+}
+
+
+.top{
+    position: fixed;
+    bottom:7.5rem; right: 2rem;
+    z-index: 100;
+    display: none;
+}
+span{
+    color: pink;
+    block-size: 150%;
+}
+div .box span{
+    font-size: small;
+}
+div .box h3{
+    font-size: medium;
+}
+.info i,a{
+    text-transform: lowercase;
+    color: brown;
+    font-size: medium;
+}
+.box{
+    border-inline-start-style: dashed;
+    color:palevioletred;
+}

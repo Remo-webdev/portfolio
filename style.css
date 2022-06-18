@@ -19,7 +19,7 @@ html{
 }
 
 html{
-    font-size: 64%;
+    font-size: 25.5%;
     overflow-x: hidden;
 }
 
@@ -27,12 +27,11 @@ html{
 body{
     background:rgb(34, 33, 33);
     overflow-x: hidden;
-    padding-left: 25rem;
+    padding-left: 35rem;
 }
 
 section{
-    min-height: 90vh;
-
+    min-height: 100vh;
     padding:8rem;
 }
 
@@ -122,7 +121,7 @@ header .navbar ul li a{
     display: fixed;
     justify-content: center;
     flex-flow: column;
-    padding:0 10rem;
+    padding:0 10rem 5px 0;
 }
 
 .home h3{
@@ -143,6 +142,7 @@ header .navbar ul li a{
     font-family: "Comic Sans MS","Comic Sans", cursive;
 }
 
+
 .top{
     position: fixed;
     bottom:7.5rem; right: 2rem;
@@ -151,7 +151,7 @@ header .navbar ul li a{
 }
 span{
     color: pink;
-    block-size: 150%;
+    block-size: 130%;
 }
 div .box span{
     font-size: small;
@@ -163,6 +163,9 @@ div .box h3{
     text-transform: lowercase;
     color: brown;
     font-size: medium;
+    padding:0px 5px;
+    margin:0px 0px; 
+    
 }
 .box{
     border-inline-start-style: dashed;

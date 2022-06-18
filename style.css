@@ -19,7 +19,7 @@ html{
 }
 
 html{
-    font-size: 25.5%;
+    font-size: 70.5%;
     overflow-x: hidden;
 }
 
@@ -141,7 +141,6 @@ header .navbar ul li a{
     block-size: 25%;
     font-family: "Comic Sans MS","Comic Sans", cursive;
 }
-
 
 .top{
     position: fixed;
